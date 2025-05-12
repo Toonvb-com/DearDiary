@@ -28,7 +28,8 @@ All diary entries are stored locally in the browser using LocalStorage. No accou
 2. Install dependencies:
    ```bash
    npm install
-    ```
+   npm install sass
+   ```
 3. Start the development server:
    ```bash
    npm start
