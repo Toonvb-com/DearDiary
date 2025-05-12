@@ -1,0 +1,30 @@
+.homepage {
+  text-align: center;
+  padding: 2rem;
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .homepage-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 2rem;
+        
+        button {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            
+            &:hover {
+                background-color: #388e3c;
+            }
+        }
+    }
+}
