@@ -21,7 +21,7 @@ All diary entries are stored locally in the browser using LocalStorage. No accou
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/deardiary.git
+   git clone https://github.com/Toonvb-com/DearDiary.git
    cd deardiary
    ```
 
