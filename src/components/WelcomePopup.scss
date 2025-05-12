@@ -1,0 +1,39 @@
+$Theme-Color: #820000;
+$Theme-Color-Fade: #2e0000bd;
+$Primary-Color: #F4F4F4;
+$Secondary-Color: #303030;
+
+.overlay {
+  background-color: $Theme-Color-Fade;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.popup {
+  background-color: $Secondary-Color;
+  box-shadow: 0 0 15px $Theme-Color-Fade;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+button {
+  background-color: $Theme-Color;
+  border: 1px solid $Theme-Color;
+  color: $Primary-Color;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
