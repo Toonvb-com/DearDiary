@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import WelcomePopup from './components/WelcomePopup.jsx';
 import Home from './pages/Home';
 import EntryForm from './pages/EntryForm';
 import './app.scss';
+import { CheckDevmode } from './utils/Devmode';
 
 function App() {
   const [showPopup, setShowPopup] = useState(true);
@@ -20,6 +21,10 @@ function App() {
   const handleSkip = () => {
     setShowPopup(false);
   };
+
+  useEffect(() => {
+    CheckDevmode();
+  }, []);
 
   const renderContent = () => {
     if (showPopup) {

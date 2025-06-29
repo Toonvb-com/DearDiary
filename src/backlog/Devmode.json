@@ -1,0 +1,8 @@
+{
+    "active": true,
+    "extendedJSONDebugger": { 
+        "EntryDebugger": true,
+        "LocalStorageDebugger": true,
+        "ActionsDebugger": true
+    }
+}

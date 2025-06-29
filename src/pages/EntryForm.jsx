@@ -46,8 +46,8 @@ export default function EntryForm({ onBack }) {
 
     const handleSubmit = () => {
         if (!feelingEmoji || !sleepEmoji) {
-        alert('Please select both mood and sleep emoji.');
-        return;
+            alert('Please select both mood and sleep emoji.');
+            return;
         }
 
         const entryData = {
